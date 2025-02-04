@@ -1,0 +1,108 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffebec;
+}
+
+
+header {
+    background: #eb5ba3;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav__bar {
+    display: flex;
+    justify-content: left;
+}
+
+.nav__links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav__links .link a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    transition: background 0.3s ease;
+}
+
+.nav__links .link a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* Estilos da Biografia */
+.container {
+    max-width: 900px;
+    margin: 80px auto 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+    text-align: left;
+}
+
+.bio img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+.obras {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.obras h1 {
+    margin-bottom: 20px;
+}
+
+.obras-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.obra {
+    width: 200px;
+    text-align: center;
+}
+
+.obra img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.obra img:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
